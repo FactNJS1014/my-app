@@ -60,7 +60,10 @@ export default function Sidebar() {
           >
             <i className="fa-solid fa-times mr-2"></i>Log out
           </button>
-          <button className="border border-sky-400 px-3 py-1 rounded-lg text-sm text-sky-400 flex gap-1 items-center">
+          <button
+            onClick={() => router.push("/backoffice/home/profile")}
+            className="border border-sky-400 px-3 py-1 rounded-lg text-sm text-sky-400 flex gap-1 items-center"
+          >
             <i className="fa-solid fa-pencil mr-2"></i>Edit
           </button>
         </div>
