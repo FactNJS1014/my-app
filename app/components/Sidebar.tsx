@@ -70,10 +70,10 @@ export default function Sidebar() {
       </div>
       <div className="p-4">
         <div className="flex flex-col gap-2">
-          <Link href="/dashboard/todo">
+          <Link href="/backoffice/home/todo">
             <i className="fa-solid fa-list mr-2"></i> บันทึกงาน
           </Link>
-          <Link href="/dashboard/home/report">
+          <Link href="/backoffice/home/report">
             <i className="fa-solid fa-file-alt mr-2"></i> รายงานสรุป
           </Link>
         </div>
